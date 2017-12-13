@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle emp-pretty",
+        "command": "emp-pretty:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "emp-pretty",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "emp-pretty:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
