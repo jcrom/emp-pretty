@@ -6,7 +6,10 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "emp-pretty:toggle"
+    "atom-workspace": ["emp-pretty:toggle",
+                        "emp-pretty:toggle1"
+
+                        ]
   },
   "repository": "https://github.com/atom/emp-pretty",
   "license": "MIT",
