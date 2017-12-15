@@ -3,13 +3,12 @@
   "main": "./lib/emp-pretty",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
-    "atom-workspace": ["emp-pretty:toggle",
-                        "emp-pretty:toggle1"
-
-                        ]
+    "atom-workspace": [
+      "emp-pretty:toggle",
+      "emp-pretty:toggle1"
+    ]
   },
   "repository": "https://github.com/atom/emp-pretty",
   "license": "MIT",
@@ -17,5 +16,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+      "emp-prettydiff":"*"
   }
 }
