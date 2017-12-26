@@ -3,7 +3,8 @@
     ".platform-darwin atom-text-editor:not(.mini)":
     {
         "cmd-i": "emp-pretty:toggle",
-        "alt-i": "emp-pretty:toggle1"
+        "alt-i": "emp-pretty:toggle1",
+        "ctrl-i": "emp-pretty:test"
     },
     ".platform-win32 atom-text-editor:not(.mini), .platform-linux atom-text-editor:not(.mini)": {
         "ctrl-i": "emp-pretty:toggle"

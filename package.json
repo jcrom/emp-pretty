@@ -7,7 +7,8 @@
   "activationCommands": {
     "atom-workspace": [
       "emp-pretty:toggle",
-      "emp-pretty:toggle1"
+      "emp-pretty:toggle1",
+      "emp-pretty:test"
     ]
   },
   "repository": "https://github.com/atom/emp-pretty",
@@ -16,6 +17,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-      "emp-prettydiff":"*"
+    "emp-prettydiff": "*",
+    "lua-fmt": "*"
   }
 }
